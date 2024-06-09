@@ -1,6 +1,8 @@
-This repository includes HTML and CSS code for a basic user satisfaction survey form.
+My repository includes HTML and CSS code for a basic user satisfaction survey form. 
 
-NOTE: My form does not currently include any logic to "submit" the survey.
+DISCLAIMER: My survey form does not currently include any logic to "submit" the survey.
+
+<img width="616" alt="User Satisfaction Survey Form"  src="https://github.com/Nabil-Sharif/UserSatisfactionSurvey/assets/8103657/33ee6f2a-ba01-44c4-b24a-1656a33309c4">
 
 **HTML Structure:**
 - 'SurveyFormProject.html' includes semantic elements such as "main", "form","fieldset", and "label".
