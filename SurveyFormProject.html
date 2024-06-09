@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for character set and viewport -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Link to external assets -->
+        <link rel="stylesheet" href="SurveyFormProjectCSS.css"> 
+        <link rel="icon" href="favicon.png">
+
+        <!-- Title of the page -->
+        <title>User Satisfaction Survey</title>
+
+    </head>
+    <body>
+        <main>
+
+            <!-- Heading of the survey form -->
+            <h1 id="title">User Satisfaction Survey</h1>
+
+            <!-- Description which thanks the user for their time filling out the survey -->
+            <p id="description">Please complete a 2 minute survey on our product/service experience</p>
+
+            <!-- Survey form with method and acttion attributes -->
+            <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+
+                <!-- Fieldset for user information -->
+                <fieldset>
+                    <!-- Input fields for user information -->
+                    <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Enter Your name" required></label>
+                    <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder="Enter your Email" required></label>
+                    <label id="number-label" for="age">Age<input id="number" name="age" type="number" placeholder="Age" min="13" max="120" required></label>
+                </fieldset>
+
+                <!-- Fieldset for the user satisfaction rating (1-10) for the overall product/service -->
+                <fieldset>
+                    <legend>On a scale from 1-10, how satisfied are you overall with our  product/service?</legend>
+                    <!-- Radio buttons for the user satisfaction rating (1-10) for the overall product/service  -->
+                    <label id="satisfaction-scale-label" for="satisfaction-scale"><input class="inline" id="satisfaction-scale" name="product-satisfaction" type="number" value="" min="1" max="10" required/></label>
+                </fieldset>
+
+                <!-- Fieldset for the quality and reliability rating for the product/service -->
+                <fieldset>
+                    <legend>How would you rate the quality and reliability of our product/service?</legend>
+                    <!-- Radio buttons for the quality and reliability rating for the product/service -->
+                    <label id="psqr-excellent-rating" for="psqr-excellent-rating"><input class="inline" id="psqr-excellent-rating" name="product-service-quality-rating" type="radio" value="" />Excellent</label>
+                    <label id="psqr-very-good-rating" for="psqr-very-good-rating""><input class="inline" id="psqr-very-good-rating" name="product-service-quality-rating" type="radio" value="" />Very Good </label>
+                    <label id="psqr-good-rating" for="psqr-good-rating"><input class="inline" id="psqr-good-rating" name="product-service-quality-rating" type="radio" value="" />Good </label>
+                    <label id="psqr-fair-rating" for="psqr-fair-rating"><input class="inline" id="psqr-fair-rating" name="product-service-quality-rating" type="radio" value="" />Fair </label>
+                    <label id="psqr-bad-rating" for="psqr-bad-rating"><input class="inline" id="psqr-bad-rating" name="product-service-quality-rating" type="radio" value="" />Bad </label>
+                </fieldset>
+
+                <!-- Fieldset for the user experience rating for the product/service-->
+                <fieldset>
+                    <legend>How easy was it to user our product/service?</legend>
+                    <!-- Radio buttons for the user experience rating for the product/service -->
+                    <label id="pse-excellent-rating" for="pse-excellent-rating"><input class="inline" id="pse-excellent-rating" name="product-service-ease-rating" type="radio" value="" />Excellent</label>
+                    <label id="pse-very-good-rating" for="pse-very-good-rating"><input class="inline" id="pse-very-good-rating" name="product-service-ease-rating" type="radio" value="" />Very Good </label>
+                    <label id="pse-good-rating" for="pse-good-rating"><input class="inline" id="pse-good-rating" name="product-service-ease-rating" type="radio" value="" />Good </label>
+                    <label id="pse-fair-rating" for="pse-fair-rating"><input class="inline" id="pse-fair-rating" name="product-service-ease-rating" type="radio" value="" />Fair </label>
+                    <label id="pse-bad-rating" for="pse-bad-rating-"><input class="inline" id="pse-bad-rating" name="product-service-ease-rating" type="radio" value="" />Bad </label>
+                </fieldset>
+
+                
+                <!-- Fieldset for customer support satisfactiton rating-->
+                <fieldset>
+                    <legend>How satisfied are you with the customer support that you have received?</legend>
+                    <!-- Radio buttons for customer support satisfactiton rating -->
+                    <label id="very-satisified-label" for="very satisfied"><input class="inline" id="very satisfied" name="product-satisfaction" type="radio" value="very satisfied" />Very Satisfied</label>
+                    <label id="satisified-label" for="satisfied"><input class="inline" id="satisfied" name="product-satisfaction" type="radio" value="satisfied" />Satisfied </label>
+                    <label id="neutral-label" for="neutral"><input class="inline" id="neutral" name="product-satisfaction" type="radio" value="neutral" />Neutral </label>
+                    <label id="dissatisfied-label" for="dissatisfied"><input class="inline" id="dissatisfied" name="product-satisfaction" type="radio" value="dissatisfied" />Dissatisfied </label>
+                    <label id="very-dissatisfied-label" for="dissatisfied"><input class="inline" id="very-dissatisfied" name="product-satisfaction" type="radio" value="very-dissatisfied" />Very Dissatisfied </label>
+
+                </fieldset>
+
+                <!-- Fieldset for improvement suggestions-->
+                <fieldset>
+                    <legend>What would you like to see improved? (Check all that apply)</legend>
+                    <!-- Checkboxes for improvement suggestions-->
+                    <label for="features-and-functionality"><input class="inline" id="features-and-functionality" name="needs-improvement" type="checkbox" value="Features and Functionality" />Features and Functionality</label>
+                    <label for="user-friendly-interface"><input class="inline" id="user-friendly-interface" name="needs-improvement" type="checkbox" value="User Friendly Interface" />User Friendly Interface</label>
+                    <label for="quality-and-reliability"><input class="inline" id="quality-and-reliability" name="needs-improvement" type="checkbox" value="Quality and Reliability" />Quality and Reliability</label>
+                    <label for="customer support"><input class="inline" id="customer support" name="needs-improvement" type="checkbox" value="Customer Support" />Customer Support</label>
+                    <label for="value-for-money"><input class="inline" id="value-for-money" name="needs-improvement" type="checkbox" value="Value for Money" />Value for Money</label>
+                </fieldset>
+
+                <!-- Fieldset for additional comments or suggestions -->
+                <fieldset>
+                    <labe for id="comments-or-suggestions">Any additional comments or suggestions?</label></label>
+                    <textarea id="comments-or-suggestions" placeholder="Enter your comment here...">
+                    </textarea>
+                </fieldset>
+
+                <!-- Submission button for form -->
+                <button id="submit" type="submit" class="submit">Submit</button>
+            
+            </form>
+        </main>
+    </body>
+</html>

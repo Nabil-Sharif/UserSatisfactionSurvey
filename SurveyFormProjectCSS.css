@@ -1,0 +1,74 @@
+/* Body Styling */
+body {
+    width: 100%; /* Body width spans the entire viewport */
+    height: 80vh; /* Body height occupies 80% of viewport height */
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(to right, #2596be, #7091E6); /* Background with a linear gradient */
+    color: #000000; /* Text color */
+    font-family: sans-serif; /* Default font family */
+    font-size: 16px; /* Default font size */
+}
+
+/* Typography */
+h1, p {
+    text-align: center; /* Center align headings and paragraphs */
+    color: #ffffff; /* Text color for headings and paragraphs */
+}
+
+p {
+    font-style: italic; /* Set paragraphs to italic */
+}
+
+/* Form Styling */
+form {
+    width: 100vw; /* Form width spans the entire viewport width */
+    min-width: 300px; /* Minimum form width */
+    max-width: 600px; /* Maximum form width for better readability */
+    margin: 0 auto; /* Center align the form horizontally */
+    padding-bottom: 2em; /* Add padding at the bottom */
+    background: linear-gradient(135deg, #a8dbee, #96b7e2); /* Blue gradient background for the form */
+    border: 3px solid #4b5779; /* Border for the form */
+    padding: 2em; /* Padding inside the form */
+    border-radius: 25px; /* Rounded corners for the form */
+    height: 61rem; /* Fixed height for the form */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: none; /* Remove border from fieldset */
+}
+
+/* Label Styling */
+label {
+    display: block; /* Display labels as block elements */
+    margin: 0.5rem 0; /* Add margin to labels */
+}
+
+/* Input, Textarea, Select Styling */
+input[type="name"], input[type="email"], input[type="age"] {
+    display: inline; /* Display input fields inline */
+    /* Other styles */
+}
+
+input, textarea, select {
+    margin: 10px 0; /* Add margin to input, textarea, and select */
+    width: 100%; /* Make input, textarea, and select span the entire width */
+    height: 2em; /* Set height for input, textarea, and select */
+    border: unset; /* Remove default borders */
+    border-radius: 25px; /* Add border-radius */
+}
+
+/* Checkbox and Radio Button Styling */
+.inline {
+    width: unset; /* Remove width restriction */
+    margin: 0 0.5em 0 0; /* Add margin */
+    vertical-align: middle; /* Align elements vertically */
+}
+
+/* Submit Button Styling */
+.submit {
+    min-height: 0.1rem; /* Set minimum height for button */
+    margin: 0 1.08em; /* Add margin */
+    /* Other styles */
+}
