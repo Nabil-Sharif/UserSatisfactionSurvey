@@ -3,7 +3,7 @@ This repository includes HTML and CSS code for a basic user satisfaction survey 
 NOTE: My form does not currently include any logic to "submit" the survey.
 
 **HTML Structure:**
-- 'SurveyFormProject.html' includes semantic elements such as '<main>', '<form>','<fieldset>', and '<label>'.
+- 'SurveyFormProject.html' includes semantic elements such as "<main>", "<form>","<fieldset>", and "<label>".
 - Users can provide their name, email, age, overall satisfaction rating, quality rating, user experience rating, customer support satisfaction, improvement suggestions, and additional comments.
 
 **CSS Styling:**
